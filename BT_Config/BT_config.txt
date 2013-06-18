@@ -1,0 +1,39 @@
+{"BT_appConfig":
+	{
+	"BT_items":[
+		{"itemId":"JA7AB80AA85D388ADF9894B8A",
+			"itemType":"BT_app",
+			"buzztouchAppId":"JA7AB80AA85D388ADF9894B8A",
+			"buzztouchAPIKey":"250CB78F387558E19497171", 
+			"dataURL":"https://www.buzztouch.com/api/app/?command=getAppData&appGuid=JA7AB80AA85D388ADF9894B8A&apiKey=250CB78F387558E19497171&apiSecret=42472AC79C81AD8B1C259BC", 
+			"reportToCloudURL":"https://www.buzztouch.com/api/app/?command=reportToCloud&appGuid=JA7AB80AA85D388ADF9894B8A&apiKey=250CB78F387558E19497171&apiSecret=42472AC79C81AD8B1C259BC&deviceId=[deviceId]&deviceLatitude=[deviceLatitude]&deviceLongitude=[deviceLongitude]&deviceModel=[deviceModel]&userId=[userId]", 
+			"registerForPushURL":"https://www.buzztouch.com/api/app/?command=registerForPush&appGuid=JA7AB80AA85D388ADF9894B8A&apiKey=250CB78F387558E19497171&apiSecret=42472AC79C81AD8B1C259BC&deviceId=[deviceId]&deviceLatitude=[deviceLatitude]&deviceLongitude=[deviceLongitude]&deviceModel=[deviceModel]&userId=[userId]", 
+			"lastModified":"Mon, 17 Jun 2013 13:17:30 -0700", 
+			"lastPublished":"Mon, 17 Jun 2013 13:17:30 -0700", 
+			"name":"TabatooDemo", 
+			"version":"1.0", 
+			"currentMode":"Design", 
+			"startLocationUpdates":"0", 
+			"promptForPushNotifications":"0", 
+			"allowRotation":"largeDevicesOnly", 
+
+			"BT_themes":[{"itemId":"B4F077422E50F8BB44C36BC", "itemType":"BT_theme", "backgroundColor":"#FFFFFF"}
+			],
+
+			"BT_tabs":[
+			],
+
+			"BT_screens":[{"itemId":"27CC376445F8ED526A7F123", "itemType":"BT_screen_menuButtons", "itemNickname":"Menu buttons", "navBarTitleText":"Menu buttons", "buttonSizeSmallDevice":"100", "buttonCornerRadiusSmallDevice":"5", "buttonSizeLargeDevice":"100", "buttonCornerRadiusLargeDevice":"5",
+"childItems":[{"itemId":"FA256A5077BD81CB16E1CE2", "itemType":"BT_buttonItem", "loadScreenWithItemId":"0A43A4A4BEF1EC1FFDE874F", "titleText":"Shopping", "imageNameSmallDevice":"shopping.jpg", "imageNameLargeDevice":"shopping.jpg"},
+{"itemId":"A08C73E60C2504D85E8EF4F", "itemType":"BT_buttonItem", "loadScreenWithItemId":"8BE43AD0F9D969645785DA4", "titleText":"Search", "imageNameSmallDevice":"search.jpg", "imageNameLargeDevice":"search.jpg"},
+{"itemId":"BBA9A2D82689937922C038E", "itemType":"BT_buttonItem", "loadScreenWithItemId":"82A1AF640B932F632820574", "titleText":"Questions", "imageNameSmallDevice":"question.jpg"}]},
+					{"itemId":"0A43A4A4BEF1EC1FFDE874F", "itemType":"BT_launchNativeApp", "itemNickname":"browser-shopping", "appToLaunch":"browser", "dataURL":"http://www.shopping.com"},
+					{"itemId":"8BE43AD0F9D969645785DA4", "itemType":"BT_launchNativeApp", "itemNickname":"browser-search", "appToLaunch":"browser", "dataURL":"http://www.yahoo.com"},
+					{"itemId":"82A1AF640B932F632820574", "itemType":"BT_launchNativeApp", "itemNickname":"browser-questions", "appToLaunch":"browser", "dataURL":"http://www.google.com"}
+
+			]
+		}
+
+		] 
+
+	}}
